@@ -23,8 +23,7 @@ public class Program {
 		stock.put(p3, 15000.0);
 
 		Product ps = new Product("Tv", 900.00);
-		// Usando a comparação de ponteiros, já que na minha classe 
-		// personalizada não foi implementado o equals e hashCode.
+		// Comparação: implementado o equals e hashCode.
 		System.out.println("Contains 'ps' key: " + stock.containsKey(ps));
 
 	}
